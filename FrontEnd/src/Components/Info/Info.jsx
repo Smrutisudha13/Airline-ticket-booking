@@ -40,8 +40,7 @@ const Info = () => {
               <BsShieldCheck className='icon'/>
             </div>
             <span className="cardTitle">Smart Checklist</span>
-            <p>You can also call airlines from your phone
-               and book a flight ticket</p>
+            <p>VISA Passport eturn Tickets</p>
 
           </div>
 

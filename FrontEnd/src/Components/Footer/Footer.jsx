@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Designer.png";
 
 //Imported icons =====>
 import { TiSocialFacebook } from "react-icons/ti";
@@ -116,7 +116,7 @@ const Footer = () => {
         >
           <span className="linkTitle">Quick Guide</span>
           <li>
-            <a href="">Chauffuer</a>
+            <a href="https://www.olacabs.com/">Chauffuer</a>
           </li>
           <li>
             <a href="">Our partners</a>
@@ -139,8 +139,8 @@ const Footer = () => {
       <div className="copyRightDiv">
         <p>
           Courtesy Design | Developed by{" "}
-          <a href="https://github.com/NguyenVanHuy1405" target="_blank">
-            Nguyen Van Huy
+          <a href="https://github.com/Smrutisudha13/Airline-ticket-booking" target="_blank">
+            SOA Group 13
           </a>
         </p>
       </div>

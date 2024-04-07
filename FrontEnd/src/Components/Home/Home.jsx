@@ -21,7 +21,7 @@ const Home = () => {
     <div className='home flex container'>
       
       <div className="mainText">
-        <h1 data-aos='fade-up' data-aos-duration='2500' > Dreams Come True</h1>
+        <h1 data-aos='fade-up' data-aos-duration='2500' >Dreams Come True !!</h1>
       </div>
 
       <div className="homeImages flex">

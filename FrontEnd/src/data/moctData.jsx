@@ -1,9 +1,9 @@
-import Paris from "../assets/paris.png";
-import traveler from "../assets/traveler1.png";
-import Dubai from "../assets/dubai.png";
-import London from "../assets/london.png"; 
+import Paris from "../assets/tajmahal.jpg";
+import traveler from "../assets/senapati.jpg";
+import Dubai from "../assets/minar.jpg";
+import London from "../assets/konark.jpg"; 
 import traveler3 from "../assets/traveler3.png"
-import NewYork from "../assets/NewYork.png"
+import NewYork from "../assets/adiyogi.jpg"
 import traveler2 from "../assets/traveler2.png"
 import traveler4 from "../assets/traveler4.png"
 
