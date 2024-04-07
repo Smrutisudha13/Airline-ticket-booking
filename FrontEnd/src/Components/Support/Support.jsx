@@ -28,10 +28,12 @@ const Support = () => {
             
             <div data-aos='fade-down' data-aos-duration='2500' className="singleInfo">
               <span className='number'>01</span> 
-              <h4>Travel requirements for Dubai</h4>
+              <h4>Travel requirements for International Travel</h4>
               <p>
-                Find help with booking and travel plans, see what to expect along
-                the journey to your favorite destination
+              <ul> <li>Passport: A valid passport that will not expire within the next 6 months</li>
+               <li>Visa: Check visa requirements for your destination country and obtain if necessary</li> 
+               <li>Travel Insurance: Comprehensive travel insurance covering medical emergencies, trip cancellations, lost baggage, etc.</li> 
+               <li>Return or Onward Ticket: Proof of a return or onward ticket, if required by the destination country</li> </ul>
               </p>
             </div>
 
@@ -39,20 +41,17 @@ const Support = () => {
               <span className='number colorOne'>02</span> 
               <h4>Chauffeur services at your arrival</h4>
               <p>
-                Find help with booking and travel plans, see what to expect along
-                the journey to your favorite destination
+                Experience a seamless arrival with our premium chauffeur services. A professional driver will greet you at the airport, assist with your luggage, 
+                and whisk you away in a luxurious vehicle to your destination.
+              </p>
+              <p>
+                Avoid the hassle of navigating an unfamiliar city or waiting for taxis.
+                Our chauffeur services ensure a comfortable and stress-free start to your journey, 
+                allowing you to relax and enjoy the ride
               </p>
             </div>
 
-            <div data-aos='fade-down' data-aos-duration='4500' className="singleInfo">
-              <span className='number colorTwo'>03</span> 
-              <h4>Multi-risk travel insurance</h4>
-              <p>
-                Find help with booking and travel plans, see what to expect along
-                the journey to your favorite destination
-              </p>
-            </div>
-          </div>
+         </div>
 
           <div data-aos='fade-left' data-aos-duration='2500' className="imgDiv">
             <img src={gridImage} alt=""/>

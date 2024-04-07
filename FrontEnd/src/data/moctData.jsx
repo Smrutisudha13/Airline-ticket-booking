@@ -12,31 +12,31 @@ export const travelersData = [
       id: 1,
       destinationImage: Paris,
       travelerImage: traveler,
-      travelerName: "IsraTech",
-      socialLink: "@isratech8",
+      travelerName: "Smrutisudha",
+      socialLink: "@ssenapati",
     },
   
     {
       id: 2,
       destinationImage: Dubai,
       travelerImage: traveler2,
-      travelerName: "David",
-      socialLink: "@david1405",
+      travelerName: "Priyanka",
+      socialLink: "@priyaka",
     },
   
     {
       id: 3,
       destinationImage: London,
       travelerImage: traveler3,
-      travelerName: "James",
-      socialLink: "@james1790",
+      travelerName: "Suchi",
+      socialLink: "@suchi99",
     },
   
     {
       id: 4,
       destinationImage: NewYork,
       travelerImage: traveler4,
-      travelerName: "BichThao",
-      socialLink: "@ntbt1506",
+      travelerName: "Subh",
+      socialLink: "@subha",
     },
   ];

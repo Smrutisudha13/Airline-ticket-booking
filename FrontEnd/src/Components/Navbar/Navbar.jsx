@@ -9,7 +9,7 @@ import { CgMenuGridO } from "react-icons/cg";
 
 // import images
 
-import logo from "../../assets/logo.png";
+import logo from "../../assets/Designer.png";
 
 const Navbar = () => {
   // Let us remove the small width the screen
