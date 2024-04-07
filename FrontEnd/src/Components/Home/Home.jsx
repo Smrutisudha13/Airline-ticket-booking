@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 
 // import assets
-import video from '../../assets/video.mp4'
+import video from '../../assets/himalaya.mp4'
 import aeroplane from '../../assets/airindia.png'
 import icons from '../../assets/742751.png'
 import title_icon from '../../assets/title_icon.png'

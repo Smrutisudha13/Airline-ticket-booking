@@ -73,7 +73,7 @@ const Footer = () => {
             <a href="">Flight Status</a>
           </li>
           <li>
-            <a href="">Travel</a>
+            <a href="https://www.makemytrip.com/" target="_blank" rel="noopener noreferrer">Travel</a>
           </li>
           <li>
             <a href="">Check-In</a>

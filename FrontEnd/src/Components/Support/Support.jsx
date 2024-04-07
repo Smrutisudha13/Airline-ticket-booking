@@ -39,14 +39,14 @@ const Support = () => {
 
             <div data-aos='fade-down' data-aos-duration='3500' className="singleInfo">
               <span className='number colorOne'>02</span> 
-              <h4>Chauffeur services at your arrival</h4>
+              <h4>Taxi services at your arrival</h4>
               <p>
-                Experience a seamless arrival with our premium chauffeur services. A professional driver will greet you at the airport, assist with your luggage, 
+                Experience a seamless arrival with our premium Taxi services. A professional driver will greet you at the airport, assist with your luggage, 
                 and whisk you away in a luxurious vehicle to your destination.
               </p>
               <p>
                 Avoid the hassle of navigating an unfamiliar city or waiting for taxis.
-                Our chauffeur services ensure a comfortable and stress-free start to your journey, 
+                Our Taxi services ensure a comfortable and stress-free start to your journey, 
                 allowing you to relax and enjoy the ride
               </p>
             </div>
