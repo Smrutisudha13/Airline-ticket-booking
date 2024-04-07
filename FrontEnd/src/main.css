@@ -232,7 +232,7 @@ h2 {
 }
 .home .homeImages .plane {
   width: 100%;
-  top: -40%;
+  margin-top: 18%;
 }
 
 .search .sectionContainer {

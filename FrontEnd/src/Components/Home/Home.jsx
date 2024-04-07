@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 
 // import assets
 import video from '../../assets/video.mp4'
-import aeroplane from '../../assets/takeoff.png'
+import aeroplane from '../../assets/airindia.png'
 import icons from '../../assets/742751.png'
 import title_icon from '../../assets/title_icon.png'
 //Import AOS
@@ -21,7 +21,7 @@ const Home = () => {
     <div className='home flex container'>
       
       <div className="mainText">
-        <h1 data-aos='fade-up' data-aos-duration='2500' >Let's Make Your Dreams True</h1>
+        <h1 data-aos='fade-up' data-aos-duration='2500' > Dreams Come True</h1>
       </div>
 
       <div className="homeImages flex">
