@@ -1,36 +1,67 @@
-import React , {useEffect} from 'react'
-import Logo from "../../assets/logo.png"
+import React, { useEffect } from "react";
+import Logo from "../../assets/logo.png";
 
 //Imported icons =====>
-import { TiSocialFacebook } from 'react-icons/ti'
-import { AiOutlineTwitter } from 'react-icons/ai'
-import { AiFillYoutube } from 'react-icons/ai'
-import { FaPinterestP } from 'react-icons/fa'
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import { TiSocialFacebook } from "react-icons/ti";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { AiFillYoutube } from "react-icons/ai";
+import {AiFillInstagram } from "react-icons/ai";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Footer = () => {
   useEffect(() => {
-    Aos.init({duration:3000}) 
-  },[])
+    Aos.init({ duration: 3000 });
+  }, []);
   return (
-    <div className='footer'>
-
+    <div className="footer">
       <div className="sectionContainer container grid">
-        <div data-aos='fade-up' data-aos-duration='2500' className="gridOne">
+        <div data-aos="fade-up" data-aos-duration="2500" className="gridOne">
           <div className="logoDiv">
-            <img src={Logo} className='Logo' />
+            <img src={Logo} className="Logo" />
           </div>
           <p>Your mind should be stronger than your feelings, fly!</p>
           <div className="socialIcon flex">
-            <TiSocialFacebook className="icon"/>
-            <AiOutlineTwitter className="icon"/>
-            <AiFillYoutube className="icon"/>
-            <FaPinterestP className="icon"/>
+            <a
+              href="https://www.facebook.com/iter.ac.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <TiSocialFacebook />
+            </a>
+            <a
+              href="https://twitter.com/soasocialmedia?lang=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <AiOutlineTwitter />
+            </a>
+            <a
+              href="https://www.youtube.com/@sikshaoanusandhanuniversity?app=desktop"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <AiFillYoutube />
+            </a>
+            <a
+              href="https://www.instagram.com/soa_sikshaoanusandhan/?hl=ene"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <AiFillInstagram />
+            </a>
           </div>
         </div>
 
-        <div data-aos='fade-up' data-aos-duration='2500' className="footerLinks">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2500"
+          className="footerLinks"
+        >
           <span className="linkTitle">Information</span>
           <li>
             <a href="">Home</a>
@@ -52,7 +83,11 @@ const Footer = () => {
           </li>
         </div>
 
-        <div data-aos='fade-up' data-aos-duration='2500' className="footerLinks">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2500"
+          className="footerLinks"
+        >
           <span className="linkTitle">Quick Guide</span>
           <li>
             <a href="">FAQ</a>
@@ -74,7 +109,11 @@ const Footer = () => {
           </li>
         </div>
 
-        <div data-aos='fade-up' data-aos-duration='2500' className="footerLinks">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2500"
+          className="footerLinks"
+        >
           <span className="linkTitle">Quick Guide</span>
           <li>
             <a href="">Chauffuer</a>
@@ -95,14 +134,18 @@ const Footer = () => {
             <a href="">Programme Rules</a>
           </li>
         </div>
-
       </div>
 
       <div className="copyRightDiv">
-        <p>Courtesy Design | Developed by <a href="https://github.com/NguyenVanHuy1405" target='_blank'>Nguyen Van Huy</a></p>
+        <p>
+          Courtesy Design | Developed by{" "}
+          <a href="https://github.com/NguyenVanHuy1405" target="_blank">
+            Nguyen Van Huy
+          </a>
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
