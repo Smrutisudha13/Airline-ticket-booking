@@ -235,32 +235,33 @@ const ViewPassengerFlightBooking = () => {
                         <b>{book.status}</b>
                       </td>
                       <td>
-                        {(() => {
-                          if (book.status !== "Cancelled") {
-                            return (
-                              <button
-                                onClick={() => cancelFlightTicket(book.id)}
-                                className="btn btn-sm bg-color custom-bg-text"
-                              >
-                                Cancel Ticket
-                              </button>
-                            );
-                          }
-                        })()}
+                        <div className="d-flex justify-content-center align-items-center gap-2">
+                          {book.status !== "Cancelled" && (
+                            <button
+                              onClick={() => cancelFlightTicket(book.id)}
+                              className="btn btn-sm bg-color custom-bg-text"
+                            >
+                              Cancel Ticket
+                            </button>
+                          )}
 
-                        {(() => {
-                          if (book.status === "Confirmed") {
-                            return (
+                          {book.status === "Confirmed" && (
+                            <>
                               <button
                                 onClick={() => downloadTicket(book.bookingId)}
-                                className="btn btn-sm bg-color custom-bg-text ms-2"
+                                className="btn btn-sm bg-color custom-bg-text"
                               >
                                 Download Ticket
                               </button>
-                            );
-                          }
-                        })()}
-
+                              <button
+                                
+                                className="btn btn-sm bg-color custom-bg-text"
+                              >
+                                Send Email
+                              </button>
+                            </>
+                          )}
+                        </div>
                         <ToastContainer />
                       </td>
                     </tr>

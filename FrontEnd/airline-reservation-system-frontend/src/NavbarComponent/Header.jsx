@@ -16,7 +16,7 @@ const Header = () => {
           />
           <Link to="/" className="navbar-brand">
             <i>
-              <b className="text-color ms-1">Airline Reservation</b>
+              <b className="text-color ms-1">Airways</b>
             </i>
           </Link>
 
