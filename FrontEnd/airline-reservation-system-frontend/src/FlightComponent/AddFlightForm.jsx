@@ -261,7 +261,7 @@ const AddFlightForm = () => {
 
               <div className="col-md-6 mb-3 text-color">
                 <label htmlFor="title" className="form-label">
-                  <b>Select Departure Time</b>
+                  <b>Select Arrival Time</b>
                 </label>
                 <input
                   type="datetime-local"
