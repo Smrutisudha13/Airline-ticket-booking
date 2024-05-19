@@ -49,7 +49,7 @@ const CustomerHeader = () => {
 
       <li class="nav-item">
         <Link
-          to=""
+          to="/"
           class="nav-link active"
           aria-current="page"
           onClick={userLogout}
