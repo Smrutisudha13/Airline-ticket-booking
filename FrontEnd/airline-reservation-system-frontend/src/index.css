@@ -56,3 +56,41 @@ code {
 .card:hover .product-card {
   transform: scale(1.02);
 }
+
+.contact-us-background {
+  background-image: url('./images/background.png'); /* Add your background image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set height to fill the entire viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-us-content {
+  max-width: 600px; /* Adjust max-width as needed */
+  text-align: center; /* Center align the content */
+  padding: 20px; /* Add padding to the content */
+  color: #000;
+}
+
+.contact-us-content h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.contact-us-content p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.contact-us-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-us-content ul li {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
